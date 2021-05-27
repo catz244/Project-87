@@ -24,7 +24,7 @@ function player_update() {
     );
 }
 
-function new_image_update(get_image) {
+function new_image(get_image) {
     fabric.Image.fromURL(
         get_image,
         function (Img) {
@@ -64,27 +64,27 @@ function my_keydown(e) {
 
 
     if (keyPressed == '70') { 
-        new_image("hulk_face.png");
+        new_image('hulk_face.png');
         console.log("f"); 
     }
 
     if (keyPressed == '66') { 
-        new_image("ironman_body.png");
+        new_image('ironman_body.png');
         console.log("b"); 
     }
     
     if (keyPressed == '76') { 
-        new_image("spiderman_legs.png");
+        new_image('spiderman_legs.png');
         console.log("l"); 
     }
 
     if (keyPressed == '82') { 
-        new_image("thor_right_hand.png");
+        new_image('thor_right_hand.png');
         console.log("r"); 
     }
 
     if (keyPressed == '72') { 
-        new_image("captain_america_left_hand.png");
+        new_image('captain_america_left_hand.png');
         console.log("h"); 
     }
 
