@@ -6,7 +6,7 @@ player_y = 10;
 blockImage_width = 30;
 blockImage_height = 40;
 
-player_objects = "";
+player_object = "";
 blockImage_object = "";
 
 function player_update() {
@@ -108,3 +108,4 @@ function my_keydown(e) {
         console.log("right"); 
     }
 }
+
